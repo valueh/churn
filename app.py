@@ -7,6 +7,7 @@ from pickle import load
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import roc_curve
 from sklearn.metrics import confusion_matrix
+import xgboost
 
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 app = Dash(external_stylesheets=[dbc.themes.BOOTSTRAP, dbc_css])
